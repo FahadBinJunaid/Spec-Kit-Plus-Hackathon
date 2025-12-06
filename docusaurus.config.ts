@@ -83,39 +83,6 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Chapter 1 —Introduction-to-physical-ai',
-              to: '/docs/introduction-to-physical-ai',
-            },
-             {
-              label: 'Chapter 2 — ROS 2: The Robotic Nervous System',
-              to: '/docs/chapter2-ros2',
-            },
-             {
-              label: 'Chapter 3 — The Digital Twin: Gazebo & Unity',
-              to: '/docs/chapter3-digital-twin',
-            },
-             {
-              label: 'Chapter 4 — NVIDIA Isaac Sim: AI-Robot Brain',
-              to: '/docs/chapter4-isaac-sim',
-            },
-             {
-              label: 'Chapter 5 — Vision-Language-Action (VLA)',
-              to: '/docs/chapter5-vla',
-            },
-            {
-              label: 'Chapter 6 — The Autonomous Humanoid',
-              to: '/docs/chapter6-capstone',
-            },
-            {
-              label: 'Chapter 7 — Hardware & Lab Setup',
-              to: '/docs/chapter7-hardware',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             {
