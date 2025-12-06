@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'Simulate, Control, and Empower Humanoid Robots',
-  favicon: 'https://huract.ch/wp-content/uploads/2023/12/ai-and-robots-squared-1-768x768.jpg',
+  tagline: 'Bridging the gap between the digital brain and the physical body',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -62,15 +62,15 @@ const config: Config = {
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
-        alt: 'My Site Logo',
-        src: 'https://huract.ch/wp-content/uploads/2023/12/ai-and-robots-squared-1-768x768.jpg',
+        alt: 'Physical AI Logo',
+        src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Book',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -82,6 +82,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Tutorial',
+              to: '/docs/Introduction-to-physical-ai',
+            },
+          ],
+        },
         {
           title: 'Community',
           items: [
