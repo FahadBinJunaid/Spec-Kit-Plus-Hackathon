@@ -87,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/Introduction-to-physical-ai',
+              to: '/docs/intro',
             },
           ],
         },
