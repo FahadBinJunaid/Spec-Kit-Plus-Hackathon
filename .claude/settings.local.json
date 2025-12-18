@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Content docs/01-introduction/intro.mdx -Head 10\")",
+      "Bash(powershell -Command \"Get-Content docs/02-module-1-ros2/ros2-basics.mdx -Head 10\")",
+      "Bash(powershell -Command \"Get-Content docs/03-module-2-digital-twin/simulation.mdx -Head 10\")",
+      "Bash(powershell -Command \"Get-Content docs/04-module-3-nvidia-isaac/perception.mdx -Head 10\")",
+      "Bash(powershell -Command \"Get-Content docs/05-module-4-vla/vla-intelligence.mdx -Head 10\")",
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"Update the specifications for Phase 2. Task Phase 1 is done, but we must fix the homepage link. Update as follows:\n\n- Branding: Update docusaurus.config.ts - Title: \"\"Physical AI & Humanoid Robotics\"\", Tagline: \"\"Mastering the Future of Embodied Intelligence\"\".\n\n- Cleanup: Delete the /blog folder. Remove all \"\"Blog\"\" and \"\"Community\"\" links from Navbar and Footer.\n\n- Homepage Fix: Redesign src/pages/index.tsx. The \"\"Start Learning\"\" button MUST link to \"\"/docs/introduction/intro\"\" \\(based on my 01-introduction folder\\).\n\n- Module Cards: Add 4 interactive cards on the homepage for: 1. ROS2 Basics, 2. Digital Twin, 3. NVIDIA Isaac, 4. VLA Intelligence.\n\n- Visibility: Update src/css/custom.css for high text contrast in Light/Dark modes using Blue/Slate robotic theme.\n\n- Footer: Link the footer \"\"Tutorial\"\" text to \"\"/docs/introduction/intro\"\" and add direct links to all 5 modules.\" -Number 2 -ShortName \"homepage-redesign\")",
+      "Bash(.specify/scripts/bash/create-new-feature.sh --json --number 2 --short-name \"homepage-redesign\" \"Update the specifications for Phase 2. Task Phase 1 is done, but we must fix the homepage link. Update as follows:\n\n- Branding: Update docusaurus.config.ts - Title: \"\"Physical AI & Humanoid Robotics\"\", Tagline: \"\"Mastering the Future of Embodied Intelligence\"\".\n\n- Cleanup: Delete the /blog folder. Remove all \"\"Blog\"\" and \"\"Community\"\" links from Navbar and Footer.\n\n- Homepage Fix: Redesign src/pages/index.tsx. The \"\"Start Learning\"\" button MUST link to \"\"/docs/introduction/intro\"\" \\(based on my 01-introduction folder\\).\n\n- Module Cards: Add 4 interactive cards on the homepage for: 1. ROS2 Basics, 2. Digital Twin, 3. NVIDIA Isaac, 4. VLA Intelligence.\n\n- Visibility: Update src/css/custom.css for high text contrast in Light/Dark modes using Blue/Slate robotic theme.\n\n- Footer: Link the footer \"\"Tutorial\"\" text to \"\"/docs/introduction/intro\"\" and add direct links to all 5 modules.\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\" -Json \"Update the specifications for Phase 2. Task Phase 1 is done, but we must fix the homepage link. Update as follows:\n\n- Branding: Update docusaurus.config.ts - Title: \"\"Physical AI & Humanoid Robotics\"\", Tagline: \"\"Mastering the Future of Embodied Intelligence\"\".\n\n- Cleanup: Delete the /blog folder. Remove all \"\"Blog\"\" and \"\"Community\"\" links from Navbar and Footer.\n\n- Homepage Fix: Redesign src/pages/index.tsx. The \"\"Start Learning\"\" button MUST link to \"\"/docs/introduction/intro\"\" \\(based on my 01-introduction folder\\).\n\n- Module Cards: Add 4 interactive cards on the homepage for: 1. ROS2 Basics, 2. Digital Twin, 3. NVIDIA Isaac, 4. VLA Intelligence.\n\n- Visibility: Update src/css/custom.css for high text contrast in Light/Dark modes using Blue/Slate robotic theme.\n\n- Footer: Link the footer \"\"Tutorial\"\" text to \"\"/docs/introduction/intro\"\" and add direct links to all 5 modules.\" -Number 2 -ShortName \"homepage-redesign\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/setup-plan.ps1\" -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/update-agent-context.ps1\" -AgentType claude)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(node --version)",
+      "Bash(ls -la docusaurus.config.ts*)",
+      "Bash(if Test-Path \"C:\\\\Users\\\\fahad\\\\Desktop\\\\hackathon\\\\my-website\\\\specs\\\\002-homepage-redesign\\\\checklists\" -PathType Container)",
+      "Bash(then ls \"C:\\\\Users\\\\fahad\\\\Desktop\\\\hackathon\\\\my-website\\\\specs\\\\002-homepage-redesign\\\\checklists\")",
+      "Bash(else echo \"No checklists directory found\")",
+      "Bash(fi)",
+      "Bash(npm start)",
+      "Bash(dir /s C:UsersfahadDesktophackathonmy-websitedocs)",
+      "Bash(dir \"C:\\\\Users\\\\fahad\\\\Desktop\\\\hackathon\\\\my-website\\\\docs\")",
+      "Bash(dir \"C:\\\\Users\\\\fahad\\\\Desktop\\\\hackathon\\\\my-website\\\\docs\\\\01-introduction\")",
+      "Bash(dir \"C:\\\\Users\\\\fahad\\\\Desktop\\\\hackathon\\\\my-website\\\\docs\\\\02-module-1-ros2\")",
+      "Bash(dir docs /s /b)",
+      "Bash(dir docs01-introduction)",
+      "Bash(dir \"docs\\\\01-introduction\" /b)",
+      "Bash(dir \"docs\\\\02-module-1-ros2\" /b)",
+      "Bash(dir \"docs\\\\03-module-2-digital-twin\" /b)",
+      "Bash(dir \"docs\\\\04-module-3-nvidia-isaac\" /b)",
+      "Bash(dir \"docs\\\\05-module-4-vla\" /b)"
+    ]
+  }
+}

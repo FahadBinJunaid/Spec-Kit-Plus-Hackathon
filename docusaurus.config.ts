@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'Bridging the gap between the digital brain and the physical body',
+  tagline: 'Mastering the Future of Embodied Intelligence',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -62,7 +62,7 @@ const config: Config = {
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
-        alt: 'Physical AI Logo',
+        alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -70,7 +70,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Book',
+          label: 'Tutorial',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -87,24 +87,32 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/01-introduction/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Modules',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Introduction',
+              to: '/docs/01-introduction/intro',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Module 1 - ROS2',
+              to: '/docs/02-module-1-ros2/ros2-basics',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Module 2 - Digital Twin',
+              to: '/docs/03-module-2-digital-twin/simulation',
+            },
+            {
+              label: 'Module 3 - NVIDIA Isaac',
+              to: '/docs/04-module-3-nvidia-isaac/perception',
+            },
+            {
+              label: 'Module 4 - VLA',
+              to: '/docs/05-module-4-vla/vla-intelligence',
             },
           ],
         },
